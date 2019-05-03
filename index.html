@@ -5,6 +5,54 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
+	<form>
+		<fieldset>
+			<legend>This is my form</legend>
+			<div>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email">
+			</div>
+			<div>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password">
+			</div>
+			<div>
+				<label for="confirm_password">Confirm Password:</label>
+				<input type="password" id="confirm_password" name="confirm_password">
+			</div>
+			<div>
+				<label for="picutre">Upload Your Picture:</label>
+				<input type="file" id="picutre" name="picutre">
+				<button>Browse..</button>
+			</div>
+			<div>
+				<label >Gender:</label>
+				<input type="radio" name="gender" value="male">Male
+				<input type="radio" name="gender" value="female">Female
+			</div>
+			<div>
+				<label for="country">Select Country:</label>
+				<select id="country" name="country">
+					<option value="united">United Kingdom</option>
+					<option value="nepal">Nepal</option>
+					<option value="china">China</option>
+					<option value="india">India</option>
+					<option value="japan">Japan</option>
+					<option value="korea">Korea</option>
+				</select>
+			</div>
+			<div>
+				<label>Hobby:</label>
+				<input type="checkbox" name="hobby" value="cricket">Cricket
+				<input type="checkbox" name="hobby" value="football">Football
+			</div>
+			<div>
+				<label for="address">Address:</label>
+				<textarea name="address" id="address"></textarea>
+			</div>
+			<br>
+			<input type="submit" name="submit">
+		</fieldset>
+	</form>
 </body>
 </html>
